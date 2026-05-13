@@ -1,0 +1,34 @@
+# ESTRUTURA DE REPETIÇÃO
+
+ ## ESTRUTURA DO FOR (PARA)
+        for  (bloco de inicialização; expressão booleana de validação;bloco de atualização)
+        {   comando que será executado até que a
+            expressão de validação torne-se falsa
+
+            EX: for (int carneirinhos = 1; carneirinhos <=20; carneirinhos++){
+                           System.out.println("Contando carneirinhos " + carneirinhos);}
+                           (Enqunato a variavel carneirinho for menor ou igual a 20, add +1 a variável)
+
+## ESTRUTURA WHILE (ENQUANTO)
+
+    While (Expressão booleana de validação)
+    {
+    comando que será executado até que a
+    expressão de validação torne-se falsa
+
+    (NO WHILE O TESTE DE CONDIÇÃO ACONTECE ANTES DE EXECUTAR O CÓDIGO,
+     CASO A CONDIÇÃO SEJA INVALIDA O BLOCO NÃO SERÁ EXECUTADO)
+
+## ESTRUTURA "DO WHILE" (FAÇA ENQUANTO)
+
+    do
+    {
+        comando que será executado até que a
+        expressão de validação torne-se falsa
+    }
+    while
+
+
+
+    (NO DO WHILE O TESTE DE CONDIÇÃO ACONTECE DEPOIS DE EXECUTAR O CÓDIGO,
+    MESMO QUE A CONDIÇÃO SEJA INVÁLIDA ELE IRÁ EXECUTAR O BLOCO AO MENOS UMA VEZ)

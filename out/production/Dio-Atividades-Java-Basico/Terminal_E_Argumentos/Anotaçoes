@@ -1,0 +1,26 @@
+ANOTAÇÕES ARGUMENTOS E TERMINAIS
+________________________________
+
+COMANDOS TERMINAL WINDOWS: "JAVA" para executar a classe
+          "JAVAC" para compilar a classe caso necessário
+          "DIR" para olhar as pastas no seu "caminho" atual
+          "CD" para entrar em alguma pasta
+          "CLS" para dar clean no terminal
+
+pra rodar o arquivo no terminal tenho que ir na pasta out/bin
+e se tiver em um package tenho que entrar na pasta anterior do package que ta a class
+e executar o package e a class
+
+EX: Quero executar a "MinhaClasse" então entro no out Dio-Atividades-Java-Basico
+
+    Daí eu executo o package e a classe
+
+    usando o comando: java Terminal_E_Argumentos.MinhaClasse consigo rodar a classe
+
+    (neste comando executei o package "Terminal_E_Argumentos" e a classe "MinhaClasse")
+
+    ADICIONAR PARÂMETROS:
+
+     para adicionar parametros é só clicar com o botçao direito em run, edit e depois colocar os parâmetros
+
+
