@@ -36,3 +36,20 @@
     DEFINIÇÃO FINALLY:
 
      O finally executa o código de qualquer maneira, tendo erro ou não
+
+     DIFERENÇA EXCEÇÕES CHECKDED (CHECADA) E UNCHECKED (NÃO CHECADA)
+
+     CHECKED:  São problemas que podem acontecer mesmo com código correto, e que podem ser tratadas
+
+               Então o Java diz: "Você PRECISA pensar nesse erro antes de compilar.”
+               Exemplo:
+               .arquivo não existe
+               .internet caiu
+               .banco de dados desconectou
+
+     UNCHECKED: Geralmente são erros de programação, ou seja, para tratar, você precisa revisar código
+               Exemplo: String nome = null;
+                        nome.length();
+
+                        Aqui: o problema não é externo, é lógica incorreta
+                              pois null = nulo então,não tem como obter o tamanho (Length) da string
