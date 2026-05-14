@@ -1,0 +1,38 @@
+    ANOTAÇÕES ESTRUTURAS EXCEPCIONAIS(EXCEÇÕES)
+
+    EXCEÇÕES MAIS COMUNS
+
+    | java.lang.NullPointerException |
+     Quando tentamos obter alguma informação de uma variável nula
+
+    | java.lang.ArithmeticException |
+     Quando tentamos difivir um valor por zero
+
+     | java.sql.SQLException |
+     Quando existe algum erro relacionado a interação com banco de dados
+
+     | java.io,FileNotFoundException |
+     Quando tentamos ler ou escrever um arquivo que não existe
+
+     TRATAMENTO DE EXCEÇÕES
+
+     ESTRUTURA DE UM BLOCO COM TRY E CATCH
+
+     try {
+            bloco de código conforme esperado
+            }
+     catch(Exception e) { precisamos saber qual exceção
+            bloco de código que captura as exceções que podem acontecer
+            em caso de um fluxo não previsto
+
+    DEFINIÇÃO TRY:
+
+    O try analisa o código que está dando a exceção
+
+    DEFINIÇÃO CATCH:
+
+    O catch captura o erro e trata ele (Geralmente com uma mensagem de erro)
+
+    DEFINIÇÃO FINALLY:
+
+     O finally executa o código de qualquer maneira, tendo erro ou não
