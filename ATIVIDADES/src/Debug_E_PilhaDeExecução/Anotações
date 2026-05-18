@@ -1,0 +1,28 @@
+                                | ANOTAÇÕES DEBUG E PILHA DE EXECUÇÃO |
+
+        Erros de programação são chamados de BUGS e o processo de encontrar e corrigir
+        os bugs é chamado de DEPURAÇÃO ou DEBUGGING
+
+                                    | CATEGORIAS DE ERROS |
+
+        ERROS DE SINTAXE: É um erro nas regras de linguagem:
+        1. Parênteses,chaves,colchetes que abrem mas não fecham
+        2. Duas instruções sem um ponto-e-vírgula entre elas
+        3. Uma palavra chave sendo usada em uma posição inesperada
+
+        ERROS SEMÂNTICOS: É um erro na lógica do código, em sua semântica,
+        o código está sintaticamente correto,mas,não faz o que se esperava dele.
+        1. Tentar dividir um número por uma String ou por zero
+        2. Atribuir um valor incoerente a um tipo de dado.Como: int n = Camila
+        3. Tentar fechar um arquivo que não foi aberto
+
+        PILHA DE EXECUÇÃO: Toda chamada de método é empilhada em uma estrutura
+        de dados que isola a área de memória de cada um. Quando um método termina
+        (retorna),ele volta para o método que o chamou
+
+        STACK TRACE: É a matriz onde encontramos a pilha de execução da exceção.
+        Em outras palavras,podemos dizer que o rastreamento da pilha busca(rastreia)
+        ara a próxima çinha onde a exceção pode surgir
+
+
+
